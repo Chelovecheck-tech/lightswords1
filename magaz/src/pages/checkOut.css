@@ -1,0 +1,112 @@
+/* Основной контейнер */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Позволяет футеру быть всегда внизу */
+    background-color: #f4f4f4;
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем отступы */
+  }
+  
+  /* Заголовок страницы */
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin: 0; /* Убираем отступы */
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  /* Кнопка возврата на главную */
+  .back-to-home {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .back-to-home:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стиль формы */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .checkout-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .checkout-form input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .checkout-form input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-payment-button {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .submit-payment-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Футер */
+  footer {
+    margin-top: auto; /* Это гарантирует, что футер будет внизу */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0; /* Убираем отступы */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
